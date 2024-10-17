@@ -1,4 +1,5 @@
 # 🕷️ Spider Animator Chrome Extension
+![image](https://github.com/user-attachments/assets/13798303-7ea7-4631-92f3-daf0a96b5c07)
 
 Add a touch of spooky fun to any webpage with animated spiders that crawl across your screen. This Chrome extension brings harmless digital spooders to life, perfect for Halloween ambiance or just adding some flair to your browsing experience.
 
