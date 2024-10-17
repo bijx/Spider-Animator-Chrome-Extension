@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Spider Animator",
+  "version": "1.0",
+  "description": "Periodically animates spiders walking across the screen.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/spider16.png",
+      "32": "icons/spider32.png",
+      "48": "icons/spider48.png",
+      "128": "icons/spider128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+      {
+          "resources": ["spider.gif", "left-web.png", "right-web.png"],
+          "matches": ["<all_urls>"]
+      }
+  ]
+}
