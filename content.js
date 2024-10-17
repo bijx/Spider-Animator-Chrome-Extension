@@ -77,7 +77,7 @@
 
   function createSpider() {
       const spider = document.createElement('img');
-      spider.src = chrome.runtime.getURL('spider.gif');
+      spider.src = chrome.runtime.getURL('assets/spider.gif');
       spider.style.position = 'fixed';
       spider.style.pointerEvents = 'none';
       spider.style.zIndex = 9999;
@@ -163,7 +163,7 @@
       removeSpiderWebs();
       if (settings.enableLeftWeb) {
           leftWeb = document.createElement('img');
-          leftWeb.src = chrome.runtime.getURL('left-web.png');
+          leftWeb.src = chrome.runtime.getURL('assets/left-web.png');
           leftWeb.style.position = 'fixed';
           leftWeb.style.top = '0px';
           leftWeb.style.left = '0px';
@@ -175,7 +175,7 @@
       }
       if (settings.enableRightWeb) {
           rightWeb = document.createElement('img');
-          rightWeb.src = chrome.runtime.getURL('right-web.png');
+          rightWeb.src = chrome.runtime.getURL('assets/right-web.png');
           rightWeb.style.position = 'fixed';
           rightWeb.style.top = '0px';
           rightWeb.style.right = '0px';
