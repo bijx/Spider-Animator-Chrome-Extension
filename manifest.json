@@ -20,9 +20,9 @@
     }
   ],
   "web_accessible_resources": [
-      {
-          "resources": ["spider.gif", "left-web.png", "right-web.png"],
-          "matches": ["<all_urls>"]
-      }
+    {
+      "resources": ["assets/spider.gif", "assets/left-web.png", "assets/right-web.png"],
+      "matches": ["<all_urls>"]
+    }
   ]
 }
